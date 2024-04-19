@@ -1,0 +1,23 @@
+{
+  "name": "sushi-roll",
+  "version": "0.1.0",
+  "description": "A test automation project with a purpose of presenting solutions for automating Web, API and other types of testing.",
+  "main": "index.js",
+  "author": "szuszik",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest --config jest.config.json",
+    "lint": "eslint .",
+    "lint:fix": "eslint . -c .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "ts-jest": "^29.1.2",
+    "typescript": "*"
+  }
+}
