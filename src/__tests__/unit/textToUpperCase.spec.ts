@@ -1,4 +1,4 @@
-import textToUpperCase from '../textToUpperCase';
+import textToUpperCase from '../../textToUpperCase';
 
 interface TestCase {
   value: string;

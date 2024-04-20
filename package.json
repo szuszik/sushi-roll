@@ -11,8 +11,8 @@
   },
   "scripts": {
     "test": "jest --config jest.config.json",
-    "lint": "eslint .",
-    "lint:fix": "eslint . -c .ts,.tsx --fix"
+    "test:unit": "jest --config jest.config.json __tests__/unit",
+    "test:api": "jest --config jest.config.json __tests__/api"
   },
   "dependencies": {
     "jest": "^29.7.0"
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.12.7",
+    "pactum": "^3.6.7",
     "ts-jest": "^29.1.2",
     "typescript": "*"
   }
